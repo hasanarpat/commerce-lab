@@ -1,0 +1,58 @@
+.carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 1rem;
+
+  &__link {
+    display: contents;
+    width: max-content;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #e78f53;
+    }
+  }
+
+  &__items {
+    display: flex;
+    position: relative;
+
+    &__cards__wrapper {
+      padding: 0 2rem;
+      overflow-x: hidden;
+
+      .carousel-wrapper-slide {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        transition: all 0.5s ease-in-out;
+      }
+    }
+
+    &__arrow {
+      position: absolute;
+      top: 100px;
+      color: white;
+      background-color: lightgray;
+      font-size: 16px;
+      z-index: 19;
+      padding: 1.5rem;
+      border-radius: 48px;
+      cursor: pointer;
+
+      &:hover {
+        background: rgb(177, 172, 172);
+      }
+    }
+
+    .carousel__items__arrow-left {
+      left: 0;
+    }
+    .carousel__items__arrow-right {
+      left: calc(100% - 36px);
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.homepage {
+  padding: 1rem;
+  &__slider {
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

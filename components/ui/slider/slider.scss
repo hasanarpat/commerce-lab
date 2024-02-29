@@ -1,0 +1,49 @@
+.homepage__slider__container {
+  position: relative;
+  width: 1230px;
+  overflow: hidden;
+
+  .homepage__slider__container__wrapper {
+    position: relative;
+    width: 3690px;
+    height: 420px;
+    display: flex;
+
+    transition: all 1s ease-in-out;
+
+    &__image__container {
+      position: relative;
+      width: 100%;
+      height: 420px;
+
+      &__img {
+        object-fit: cover;
+      }
+    }
+  }
+  .arrow {
+    position: absolute;
+    color: white;
+    z-index: 9;
+    top: 210px;
+    font-size: 32px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: rgba($color: #afafaf, $alpha: 0.5);
+    padding: 1rem;
+    border-radius: 60px;
+
+    &.arrow__right {
+      left: 1170px;
+    }
+
+    &:hover {
+      color: lightgray;
+      box-shadow: white;
+    }
+  }
+}

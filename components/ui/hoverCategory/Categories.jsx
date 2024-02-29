@@ -7,7 +7,7 @@ const Categories = () => {
     <div className='nav_categories_links'>
       <ul>
         <li>
-          <Link href='/category/1'>
+          <Link href='/category/t-shirt'>
             <HoverCard>T-shirt</HoverCard>
           </Link>
         </li>
@@ -17,7 +17,7 @@ const Categories = () => {
           </Link>
         </li>
         <li>
-          <Link href='/category/3'>
+          <Link href='/category/jean'>
             <HoverCard>Jeans</HoverCard>
           </Link>
         </li>
