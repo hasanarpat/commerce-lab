@@ -12,7 +12,7 @@ const Card = ({ product }) => {
         height={160}
         className='card__image'
       />
-      <Link href='/product/12' className='card__details'>
+      <Link href={`/product/${product.id}`} className='card__details'>
         <h3>{product.name}</h3>
         {/* <span className='card__details__desc'>{product.description}</span> */}
         <div style={{ flexGrow: 1 }} />

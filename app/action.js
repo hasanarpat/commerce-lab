@@ -15,6 +15,11 @@ export const getLimitedItems = (limit, index, id) => {
 export const getCategoryItems = (category) => {
   const newArray = items.filter((item) => item.category === category);
   return newArray;
+  // setTimeout(function () {
+  //   const newArray = items.filter((item) => item.category === category);
+  //   return newArray.slice(0, 12);
+  //   console.log('5 saniye bekledikten sonra işlemler tamamlandı.');
+  // }, 5000);
 };
 export const getCategoryItemsLength = (category) => {
   return getCategoryItems(category).length;
