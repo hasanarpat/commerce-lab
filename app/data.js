@@ -1,7 +1,7 @@
 const items = [
   {
     id: 1,
-    name: 'AKadın Trench Coat jean',
+    name: 'Kadın Trench Coat jean',
     description: 'Rüzgar geçirmez ve suya dayanıklı kadın trench coat',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',
@@ -9,7 +9,7 @@ const items = [
   },
   {
     id: 2,
-    name: 'AErkek Slim Fit Gömlek jean',
+    name: 'Erkek Slim Fit Gömlek jean',
     description: 'Modern tarzda slim fit erkek gömlek',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',
@@ -17,7 +17,7 @@ const items = [
   },
   {
     id: 3,
-    name: 'AKadın Midi Elbise',
+    name: 'Kadın Midi Elbise',
     description: 'Rahat ve şık kadın midi elbise',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',
@@ -25,7 +25,7 @@ const items = [
   },
   {
     id: 4,
-    name: 'AErkek Sneaker Ayakkabı',
+    name: 'Erkek Sneaker Ayakkabı',
     description: 'Konforlu ve spor erkek sneaker ayakkabı',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',
@@ -33,7 +33,7 @@ const items = [
   },
   {
     id: 5,
-    name: 'AKadın Skinny Jean',
+    name: 'Kadın Skinny Jean',
     description: 'Modaya uygun ve rahat kadın skinny jean',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',
@@ -41,7 +41,7 @@ const items = [
   },
   {
     id: 6,
-    name: 'AErkek Deri Ceket',
+    name: 'Erkek Deri Ceket',
     description: 'Klasik ve şık erkek deri ceket',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',
@@ -49,7 +49,7 @@ const items = [
   },
   {
     id: 7,
-    name: 'AKadın Crop Top t-shirt',
+    name: 'Kadın Crop Top t-shirt',
     description: 'Yaz için trendy ve feminen kadın crop top',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',
@@ -57,7 +57,7 @@ const items = [
   },
   {
     id: 8,
-    name: 'AErkek Slim Fit Pantolon t-shirt',
+    name: 'Erkek Slim Fit Pantolon t-shirt',
     description: 'Modern tarzda slim fit erkek pantolon',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',
@@ -65,7 +65,7 @@ const items = [
   },
   {
     id: 9,
-    name: 'AKadın Midi Etek',
+    name: 'Kadın Midi Etek',
     description: 'Çeşitli kombinlerle uyumlu kadın midi etek',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',
@@ -73,7 +73,7 @@ const items = [
   },
   {
     id: 10,
-    name: 'AErkek Polo Yaka Tişört',
+    name: 'Erkek Polo Yaka Tişört',
     description: 'Rahat ve spor erkek polo yaka tişört',
     image: 'https://picsum.photos/seed/picsum/200/300',
     cost: '$25',

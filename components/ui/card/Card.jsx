@@ -20,7 +20,6 @@ const Card = ({ product }) => {
           <span>{product.cost}</span>
           <span className='card__details__cost__promotion'>-%10</span>
         </p>
-        <p>{product.category}</p>
       </Link>
     </div>
   );

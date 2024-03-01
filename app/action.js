@@ -6,6 +6,10 @@ export const getAllItems = () => {
   return items;
 };
 
+export const getSingleItem = (wantedId) => {
+  return items.find((item) => item.id === parseInt(wantedId));
+};
+
 export const getLimitedItems = (limit, index, id) => {
   const categoryItems = getCategoryItems(id.toLowerCase());
   const newArray = categoryItems.slice(limit, index);
