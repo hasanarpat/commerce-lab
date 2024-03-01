@@ -25,6 +25,7 @@ export const getCategoryItems = (category) => {
   //   console.log('5 saniye bekledikten sonra işlemler tamamlandı.');
   // }, 5000);
 };
+
 export const getCategoryItemsLength = (category) => {
   return getCategoryItems(category).length;
 };

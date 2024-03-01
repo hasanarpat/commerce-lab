@@ -1,16 +1,12 @@
 import { getSingleItem } from '@/app/action';
 import Image from 'next/image';
 import './page.scss';
+import AddButton from './addButton';
 
 const Product = ({ params, searchParams }) => {
   const { id } = params;
-  // console.log(searchParams, 'searchParams', id, 'id');
-  const product = getSingleItem(id);
 
-  const handleAddCart = async () => {
-    'use server';
-    console.log('Add to Cart');
-  };
+  const product = getSingleItem(id);
 
   return (
     <div className='product-page'>
@@ -59,12 +55,7 @@ const Product = ({ params, searchParams }) => {
               {product.cost}
             </span>
             <div className='product-page__wrapper__right__price__group__actions'>
-              <form
-                action={handleAddCart}
-                className='product-page__cart-actions-form'
-              >
-                <button className='add-cart'>Add to Cart</button>
-              </form>
+              <AddButton product={product} />
             </div>
           </div>
         </div>

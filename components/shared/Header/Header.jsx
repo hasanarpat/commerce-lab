@@ -2,6 +2,7 @@ import Categories from '@/components/ui/hoverCategory/Categories';
 import './header.scss';
 import Link from 'next/link';
 import { FaShoppingCart } from 'react-icons/fa';
+import Quantity from './Quantity';
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
         <div className='nav__cart'>
           <Link href='/cart' className='nav__cart__link'>
             <FaShoppingCart />
-            <span className='nav__cart__link__quantity'>2</span>
+            <Quantity />
           </Link>
         </div>
       </nav>

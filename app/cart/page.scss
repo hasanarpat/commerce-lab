@@ -1,0 +1,56 @@
+.cart-page {
+  padding: var(--padding-inline);
+  padding-top: 5rem;
+
+  &__wrapper {
+    width: 50%;
+    margin: auto;
+
+    &__products {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      &__item {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+        &__buttons {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 24px;
+          color: orange;
+
+          span {
+            color: var(--main-color);
+          }
+
+          .product-quantity-icon {
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+              font-size: 28px;
+            }
+          }
+        }
+        .removeFromCartButton {
+          cursor: pointer;
+          padding: 6px 12px;
+          background: rgb(197, 20, 20);
+          color: white;
+          font-size: 14px;
+          font-weight: 500;
+          border: none;
+          border-radius: 50px;
+
+          &:hover {
+            background: red;
+          }
+        }
+      }
+    }
+  }
+}
