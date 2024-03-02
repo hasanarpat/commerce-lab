@@ -24,7 +24,8 @@ const Cart = () => {
                     addToCart(product, String(parseInt(product.quantity) + 1))
                   }
                 />{' '}
-                |<span>{product.quantity}</span> |
+                <b>|</b>
+                <span>{product.quantity}</span> <b>|</b>
                 <IoIosRemoveCircle
                   className='product-quantity-icon'
                   onClick={() =>

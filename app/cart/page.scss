@@ -17,14 +17,20 @@
         align-items: center;
 
         &__buttons {
+          width: 300px;
           display: flex;
           align-items: center;
           gap: 10px;
           font-size: 24px;
           color: orange;
 
+          b {
+            user-select: none;
+          }
+
           span {
             color: var(--main-color);
+            user-select: none;
           }
 
           .product-quantity-icon {
@@ -45,7 +51,9 @@
           font-weight: 500;
           border: none;
           border-radius: 50px;
+          width: 100%;
 
+          user-select: none;
           &:hover {
             background: red;
           }
