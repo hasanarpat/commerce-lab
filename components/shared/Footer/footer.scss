@@ -3,6 +3,13 @@
   border-top: 0.5px solid gray;
   height: 80px;
 
+  &__hero {
+    width: 30%;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   &__main {
     display: flex;
     align-items: center;
@@ -23,6 +30,8 @@
       ul {
         list-style: none;
         display: flex;
+        gap: 10px;
+        font-size: 14px;
       }
     }
   }

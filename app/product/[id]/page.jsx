@@ -23,22 +23,40 @@ const Product = ({ params, searchParams }) => {
                 />
               </div>
               <div className='product-page__img'>
-                <Image
-                  alt='product image'
-                  src={product.image}
-                  className='product__img'
-                  fill
-                />
+                {product.image2 ? (
+                  <Image
+                    alt='product image'
+                    src={product.image2}
+                    className='product__img'
+                    fill
+                  />
+                ) : (
+                  <Image
+                    alt='product image'
+                    src={product.image}
+                    className='product__img'
+                    fill
+                  />
+                )}
               </div>
             </div>
             <div className='product-page__wrapper__left__image-container__bottom'>
               <div className='product-page__img'>
-                <Image
-                  alt='product image'
-                  src={product.image}
-                  className='product__img'
-                  fill
-                />
+                {product.image3 ? (
+                  <Image
+                    alt='product image'
+                    src={product.image3}
+                    className='product__img'
+                    fill
+                  />
+                ) : (
+                  <Image
+                    alt='product image'
+                    src={product.image}
+                    className='product__img'
+                    fill
+                  />
+                )}
               </div>
             </div>
           </div>

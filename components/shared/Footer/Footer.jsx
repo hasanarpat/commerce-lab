@@ -5,14 +5,14 @@ const Footer = () => {
       <div className='footer__main'>
         <div className='footer__main__categories'>
           <ul>
-            <li>T-shirts</li>
-            <li>T-shirts</li>
-            <li>T-shirts</li>
-            <li>T-shirts</li>
-            <li>T-shirts</li>
+            <li>Contact</li>
+            <li>About Us</li>
+            <li>Commerce Days</li>
+            <li>E-Commerce</li>
+            <li>Career</li>
           </ul>
         </div>
-        <div className='footer__basket'>Basket</div>
+        <div className='footer__hero'>Modern E-Commerce</div>
         <div className='footer__main__logo'>
           <h1 className='footer__main__logo__text'>hasanarpat</h1>
         </div>

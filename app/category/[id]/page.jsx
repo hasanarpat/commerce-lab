@@ -3,6 +3,7 @@ import './page.scss';
 import items from '@/app/data';
 import { getCategoryItemsLength, getLimitedItems } from '@/app/action';
 import Link from 'next/link';
+import {redirect } from "next/navigation"
 
 const offset = 10;
 
@@ -18,6 +19,8 @@ const Category = ({ params, searchParams }) => {
     index = parseInt(searchParams.index);
     data = getLimitedItems(index, index + offset, id);
   }
+
+  if (data.length === 0) redirect("/not-found")
 
   return (
     <div className='category-page'>
