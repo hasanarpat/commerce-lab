@@ -37,6 +37,15 @@ const Slider = () => {
             fill
             className='homepage__slider__container__wrapper__image__container__img'
           />
+          <div className='homepage__slider__container__wrapper__image__container__hero'>
+            <h2 className='homepage__slider__container__wrapper__image__container__hero__title'>
+              Yaz Trendleri
+            </h2>
+            <p className='homepage__slider__container__wrapper__image__container__hero__desc'>
+              Yaza özel tasarlanmış en trend giysilerle tarzınızı güncelleyin.
+              Renkli ve hafif kumaşlarla stilinizi sergileyin.
+            </p>
+          </div>
         </div>
         <div className='homepage__slider__container__wrapper__image__container'>
           <Image
@@ -45,6 +54,15 @@ const Slider = () => {
             fill
             className='homepage__slider__container__wrapper__image__container__img'
           />
+          <div className='homepage__slider__container__wrapper__image__container__hero'>
+            <h2 className='homepage__slider__container__wrapper__image__container__hero__title'>
+              Doğayla Uyumlu Tasarımlar
+            </h2>
+            <p className='homepage__slider__container__wrapper__image__container__hero__desc'>
+              Doğadan ilham alınmış tasarımlarla buluşun. Yumuşak dokular ve
+              organik desenlerle doğayla uyumlu bir stil yakalayın.
+            </p>
+          </div>
         </div>
         <div className='homepage__slider__container__wrapper__image__container'>
           <Image
@@ -53,6 +71,15 @@ const Slider = () => {
             fill
             className='homepage__slider__container__wrapper__image__container__img'
           />
+          <div className='homepage__slider__container__wrapper__image__container__hero'>
+            <h2 className='homepage__slider__container__wrapper__image__container__hero__title'>
+              Rahatlık ve Şıklık
+            </h2>
+            <p className='homepage__slider__container__wrapper__image__container__hero__desc'>
+              Günün her anında rahatlığı ve şıklığı bir arada yaşayın. İşte size
+              özel, konforlu ve şık tasarımlar.
+            </p>
+          </div>
         </div>
       </div>
       <div className='arrow arrow__right'>
