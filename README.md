@@ -1,5 +1,5 @@
 ## App Demo Link
-Link [Link](https://pages.github.com/](http://localhost:3000/).
+Link (https://pages.github.com/](https://super-sunflower-30989e.netlify.app/)
 
 ### App Gif
 ![Homepage Design](https://github.com/hasanarpat/commerce-lab/blob/master/public/images/store.gif)
